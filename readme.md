@@ -1,6 +1,12 @@
 # WARNING: under development
 
-Example:
+## Installation
+
+```bash
+composer require ammardev/larecipe-api-ref
+```
+
+## Example:
 
 ```html
 <api-ref title="Login request" verb="post" route="/api/login" :response-codes="[200, 401]">
